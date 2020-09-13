@@ -1,0 +1,31 @@
+*next-closed-fold.vim.txt*        fold jumping tool
+
+=====================================================================
+OVERVIEW                                   *next-closed-fold.vim*
+
+Jump to closed folds.
+
+=====================================================================
+USAGE                                         *:NextClosedFold()*
+
+General usage >
+    :NextClosedFold({direction})
+
+Where {direction} is either 'j' (down) or 'k' (up).
+
+Examples:
+
+Jump to the next closed fold *down*
+
+    :NextClosedFold('j')
+
+Jump to the next closed fold *up*
+
+    :NextClosedFold('k')
+
+Optional Keymappings:
+
+Replace the default `zk` and `zj` key mappings
+
+    :nnoremap <silent> zj :call NextClosedFold('j')<cr>
+    :nnoremap <silent> zk :call NextClosedFold('k')<cr>

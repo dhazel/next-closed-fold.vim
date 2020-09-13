@@ -39,6 +39,18 @@ and then redefine the above mappings as follows:
     nnoremap <silent> <leader>zj :<c-u>call RepeatCmd('call NextClosedFold("j")')<cr>
     nnoremap <silent> <leader>zk :<c-u>call RepeatCmd('call NextClosedFold("k")')<cr>
 
+Installation
+------------
+
+Any package manager or vim's native package management can be used to install
+this plugin.
+
+#### Vim-Plug
+
+```vim
+Plug 'dhazel/next-closed-fold.vim'
+```
+
 Inspired By
 -----------
 

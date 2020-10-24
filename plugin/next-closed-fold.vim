@@ -5,8 +5,8 @@
 "
 " NOTES:
 "
-"   * Provides command :NextClosedFold('j')
-"   * Provides command :NextClosedFold('k')
+"   * Provides function :NextClosedFold('j')
+"   * Provides function :NextClosedFold('k')
 "
 " INSPIRED BY:
 "
